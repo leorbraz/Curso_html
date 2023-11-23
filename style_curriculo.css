@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;}
+
+body{
+    background-color: rgb(181, 218, 230);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: 70% 50%;
+    position: relative;
+}
+
+.photo {
+    border-radius: 130px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+
+/* Começo do style da parte esquerda. */
+
+.container .lado-esquerdo {
+    position: relative;
+    background: #0b061b;
+    padding: 40px;
+}
+
+.perfil{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.perfil h2{
+    color: #ffffff;
+    font-size: 1.5em;
+    margin-top:20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.8em;
+}
+
+.perfil h2 span{
+    font-size: 0.9em;
+    font-weight: 300;
+}
+
+.contact {
+    padding-top: 40px;
+}
+
+.title{
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.contact ul{
+    position: relative; 
+}
+
+.contact ul li{ 
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.contact ul li p{ 
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.contact a{ 
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+}
+
+.contact.education h2{
+    padding: 0;
+}
+
+.contact.education h4{
+    padding: 3px;
+}
+
+.contact.education li{
+    margin-bottom:15px;
+    
+}
+
+.contact.education h4:nth-child(2){
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.contact.education h4{
+    color: #ffffff;
+    font-weight: 300;
+}
+
+/* Fim do style da parte esquerda. */
+
+/* Começo do style da parte direita. */
+
+.container .lado-direito {
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+
+.objective {
+    margin-bottom: 20px;
+}
+
+.objective:last-child {
+    margin-bottom: 0;
+}
+
+.subtitle {
+    color: #0c0524;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #333;
+    font-size: 17px;
+    line-height: 1.5rem;
+}
+
+.exp {
+    width: 100%;
+    overflow: hidden;
+  
+    /*limpa o float*/
+}
+
+h3, 
+p {
+    margin: 0;
+    /* Remove as margens padrão */
+}
+
+.objective .box{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+
+
+.exp h2{
+    padding-top: 5px;
+    color: #0c0524;
+    padding-bottom: 0px;
+}
+
+.exp h3{
+    padding-top: 12px;
+    color: #0c0524;
+}
+
+.exp .list p {
+    color: #000000;
+    width: 100%;
+    padding-top: 2px;
+}
+
+.cursos .box {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.cursos .box p {
+    color: #000000;
+    font-weight: 500;
+}
+
+.skills {
+    position: relative;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.cursos .subtitle{
+    width: 100%;
+    margin-top: 15px;
+}
