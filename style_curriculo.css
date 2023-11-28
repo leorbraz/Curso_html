@@ -5,7 +5,7 @@
     font-family: 'Roboto', sans-serif;}
 
 body{
-    background-color: rgb(181, 218, 230);
+    background-color: rgb(212, 219, 221);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,18 +24,18 @@ body{
     width: 100%;
     max-width: 1000px;
     min-height: 1000px;
-    background: #fff;
+    background: #003147;
     margin: 50px;
     display: grid;
     grid-template-columns: 1fr 2fr;
-    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 35px 55px rgba(2, 2, 2, 0.1);
 }
 
 /* Começo do style da parte esquerda. */
 
 .container .lado-esquerdo {
     position: relative;
-    background: #0b061b;
+    background: #003147;
     padding: 40px;
 }
 
@@ -139,7 +139,7 @@ body{
 }
 
 .subtitle {
-    color: #0c0524;
+    color: #003147;
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 10px;
@@ -173,13 +173,13 @@ p {
 
 .exp h2{
     padding-top: 5px;
-    color: #0c0524;
+    color: #003147;
     padding-bottom: 0px;
 }
 
 .exp h3{
     padding-top: 12px;
-    color: #0c0524;
+    color: #003147;
 }
 
 .exp .list p {
